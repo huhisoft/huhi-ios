@@ -1669,7 +1669,7 @@ extension BrowserViewController: TopToolbarDelegate {
     }
     
     // TODO: This logic should be fully abstracted away and share logic from current MenuViewController
-    // See: https://github.com/huhi/huhi-ios/issues/1452
+    // See: https://github.com/huhisoft/huhi-ios/issues/1452
     func topToolbarDidTapBookmarkButton(_ topToolbar: TopToolbarView) {
         let vc = BookmarksViewController(folder: nil, isPrivateBrowsing: PrivateBrowsingManager.shared.isPrivateBrowsing)
         vc.toolbarUrlActionsDelegate = self

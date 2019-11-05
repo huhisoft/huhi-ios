@@ -450,7 +450,7 @@ class SettingsViewController: TableViewController {
                 }, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
                 Row(text: "URP Code: \(UserReferralProgram.getReferralCode() ?? "--")"),
                 Row(text: "Load all QA Links", selection: {
-                    let url = URL(string: "https://raw.githubusercontent.com/huhi/qa-resources/master/testlinks.json")!
+                    let url = URL(string: "https://raw.githubusercontent.com/huhisoft/qa-resources/master/testlinks.json")!
                     let string = try? String(contentsOf: url)
                     let urls = JSON(parseJSON: string!)["links"].arrayValue.compactMap { URL(string: $0.stringValue) }
                     self.settingsDelegate?.settingsOpenURLs(urls)

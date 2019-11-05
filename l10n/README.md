@@ -11,7 +11,7 @@ We manage all of our translations using Transifex. Here's how you can get starte
 - At this point, your account will be created and you can confirm your email.
 
 You are now ready to join and help with translations or you can request a new language.
-- Visit https://www.transifex.com/huhi/huhi-ios/
+- Visit https://www.transifex.com/huhisoft/huhi-ios/
 - In the top right, you can click "Join team".
 - You can specify the languages you speak OR request a language which is not currently provided
 - One of our contributors will be able to approve your access.
@@ -20,7 +20,7 @@ You are now ready to join and help with translations or you can request a new la
 We generally pull in all languages files at the time we cut a release. That allows us to keep everything up to date in a scalable way.
 For reference, here are a few pull requests where we've pulled in new language files
 
-- https://github.com/huhi/huhi-ios/pull/???
+- https://github.com/huhisoft/huhi-ios/pull/???
 
 ## Making sure our code has all strings localized
 
@@ -36,7 +36,7 @@ Besides providing the actual translations themselves, it's important that the co
 ### Fixing existing known issues
 
 You can search our existing issues and find places to contribute here:
-https://github.com/huhi/huhi-ios/labels/l10n
+https://github.com/huhisoft/huhi-ios/labels/l10n
 
 ### Properly modifying a string
 

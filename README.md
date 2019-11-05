@@ -14,7 +14,7 @@ This branch currently supports iOS 12, and is written in Swift 4.
 
 Please make sure you aim your pull requests in the right direction.
 
-For bug fixes and features for the upcoming release, please see the associated [GitHub milestones](https://github.com/huhi/huhi-ios/milestones) (e.g. *2.1.3*).
+For bug fixes and features for the upcoming release, please see the associated [GitHub milestones](https://github.com/huhisoft/huhi-ios/milestones) (e.g. *2.1.3*).
 
 Getting involved
 ----------------
@@ -22,9 +22,9 @@ Getting involved
 We encourage you to participate in this open source project. We love Pull Requests, Bug Reports, ideas, (security) code reviews or any kind of positive contribution.
 
 * Development discussion: ['Contributing-ios' Community Forums](https://community.huhi.com/c/contributing/contributing-ios):
-* Bugs:           [File a new bug](https://github.com/huhi/huhi-ios/issues/new) • [Existing bugs](https://github.com/huhi/huhi-ios/issues)
+* Bugs:           [File a new bug](https://github.com/huhisoft/huhi-ios/issues/new) • [Existing bugs](https://github.com/huhisoft/huhi-ios/issues)
 
-Want to contribute but don't know where to start? Here is a list of [Good First Issues](https://github.com/huhi/huhi-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
+Want to contribute but don't know where to start? Here is a list of [Good First Issues](https://github.com/huhisoft/huhi-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).
 
 Building the code
 -----------------
@@ -42,7 +42,7 @@ Building the code
     ```
 1. Clone the repository:
     ```shell
-    git clone https://github.com/huhi/huhi-ios.git
+    git clone https://github.com/huhisoft/huhi-ios.git
     ```
 1. Pull in the project dependencies:
     ```shell

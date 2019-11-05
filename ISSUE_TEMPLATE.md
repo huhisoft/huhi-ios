@@ -1,5 +1,5 @@
 <!-- Have you searched for similar issues on the repository?
-Before submitting this issue, please visit our wiki for common ones: https://github.com/huhi/browser-ios/wiki
+Before submitting this issue, please visit our wiki for common ones: https://github.com/huhisoft/browser-ios/wiki
 For more, check out our community site: https://community.huhi.com/ -->
 
 ### Description: 
