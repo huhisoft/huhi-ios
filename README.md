@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/huhi/huhi-ios.svg?branch=development)](https://travis-ci.org/huhi/huhi-ios)
+[![Build Status](https://travis-ci.org/huhisoft/huhi-ios.svg?branch=development)](https://travis-ci.org/huhisoft/huhi-ios)
 
 Huhi for iOS 🦁
 ===============
 
-Download on the [App Store](https://itunes.apple.com/app/huhi-web-browser/).
+Download on the [App Store](https://itunes.apple.com/app/huhi-web-browser/id2006199027?mt=8).
 
 This branch (development)
 -----------

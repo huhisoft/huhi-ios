@@ -386,7 +386,7 @@ class SettingsViewController: TableViewController {
                 Row(text: Strings.Rate_Huhi,
                     selection: { [unowned self] in
                         // Rate Huhi
-                        guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/idapp?action=write-review")
+                        guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id2006199027?action=write-review")
                             else { return }
                         UIApplication.shared.open(writeReviewURL)
                         self.dismiss(animated: true)
@@ -450,7 +450,7 @@ class SettingsViewController: TableViewController {
                 }, accessory: .disclosureIndicator, cellClass: MultilineValue1Cell.self),
                 Row(text: "URP Code: \(UserReferralProgram.getReferralCode() ?? "--")"),
                 Row(text: "Load all QA Links", selection: {
-                    let url = URL(string: "https://raw.githubusercontent.com/huhisoft/qa-resources/master/testlinks.json")!
+                    let url = URL(string: "https://huhisoft.com/lib/testlinks.json")!
                     let string = try? String(contentsOf: url)
                     let urls = JSON(parseJSON: string!)["links"].arrayValue.compactMap { URL(string: $0.stringValue) }
                     self.settingsDelegate?.settingsOpenURLs(urls)
