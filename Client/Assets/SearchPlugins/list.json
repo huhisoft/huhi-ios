@@ -1,0 +1,97 @@
+{
+  "allLocales": {
+    "visibleDefaultEngines": [
+      "duckduckgo", 
+      "qwant", 
+      "startpage",
+      "google"
+    ]
+  }, 
+  "default": {
+    "searchDefault": "Google", 
+    "visibleDefaultEngines": [
+      "bing"
+    ]
+  }, 
+  "locales": {  
+    "be": {
+      "default": {
+        "visibleDefaultEngines": [
+          "bing", 
+          "yandex.by" 
+        ]
+      }
+    }, 
+    "kk": {
+      "BY": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "KZ": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "RU": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "TR": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "default": {
+        "visibleDefaultEngines": [
+          "bing", 
+          "yandex"
+        ]
+      }
+    }, 
+    "ru": {
+      "BY": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "KZ": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "RU": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "TR": {
+        "searchDefault": "\u042f\u043d\u0434\u0435\u043a\u0441"
+      }, 
+      "default": {
+        "visibleDefaultEngines": [
+          "yandex-ru"
+        ]
+      }
+    }, 
+    "sv-SE": {
+      "default": {
+        "visibleDefaultEngines": [
+          "bing-se-SV" 
+        ]
+      }
+    }, 
+    "th": {
+      "default": {
+        "visibleDefaultEngines": []
+      }
+    }, 
+    "tr": {
+      "BY": {
+        "searchDefault": "Yandex"
+      }, 
+      "KZ": {
+        "searchDefault": "Yandex"
+      }, 
+      "RU": {
+        "searchDefault": "Yandex"
+      }, 
+      "TR": {
+        "searchDefault": "Yandex"
+      }, 
+      "default": {
+        "visibleDefaultEngines": [
+          "yandex-tr"
+        ]
+      }
+    }
+  }, 
+  "regionOverrides": {}
+}
