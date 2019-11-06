@@ -386,7 +386,7 @@ class SettingsViewController: TableViewController {
                 Row(text: Strings.Rate_Huhi,
                     selection: { [unowned self] in
                         // Rate Huhi
-                        guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id1052879175?action=write-review")
+                        guard let writeReviewURL = URL(string: "https://itunes.apple.com/app/id2006199027?action=write-review")
                             else { return }
                         UIApplication.shared.open(writeReviewURL)
                         self.dismiss(animated: true)

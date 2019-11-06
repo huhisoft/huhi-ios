@@ -3,7 +3,7 @@
 Huhi for iOS 🦁
 ===============
 
-Download on the [App Store](https://itunes.apple.com/app/huhi-web-browser/id1052879175?mt=8).
+Download on the [App Store](https://itunes.apple.com/app/huhi-web-browser/id2006199027?mt=8).
 
 This branch (development)
 -----------
