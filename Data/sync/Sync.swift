@@ -107,7 +107,7 @@ public class Sync: JSInjector {
     fileprivate lazy var isDebug: Bool = { return AppConstants.BuildChannel == .developer }()
     
     fileprivate lazy var serverUrl: String = {
-        return isDebug ? "https://sync-staging.huhi.com" : "https://sync.huhi.com"
+        return isDebug ? "https://sync-staging.huhisoft.com" : "https://sync.huhisoft.com"
     }()
     
     fileprivate let apiVersion = 0

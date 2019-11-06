@@ -1,9 +1,9 @@
 /* This Source Code Form is subject to the terms of the Mozilla Public License, v. 2.0. If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 public struct HuhiUX {
-    public static let HuhiCommunityURL = URL(string: "https://community.huhi.com/")!
-    public static let HuhiPrivacyURL = URL(string: "https://huhi.com/privacy/")!
-    public static let HuhiTermsOfUseURL = URL(string: "https://www.huhi.com/terms_of_use")!
+    public static let HuhiCommunityURL = URL(string: "https://community.huhisoft.com/")!
+    public static let HuhiPrivacyURL = URL(string: "https://huhisoft.com/privacy/")!
+    public static let HuhiTermsOfUseURL = URL(string: "https://www.huhisoft.com/terms_of_use")!
     public static let PrefKeyOptInDialogWasSeen = "OptInDialogWasSeen"
     public static let PrefKeyUserAllowsTelemetry = "userallowstelemetry"
     

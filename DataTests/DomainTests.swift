@@ -14,8 +14,8 @@ class DomainTests: CoreDataTestCase {
     let url = URL(string: "http://example.com")!
     let urlHTTPS = URL(string: "https://example.com")!
     
-    let url2 = URL(string: "http://huhi.com")!
-    let url2HTTPS = URL(string: "https://huhi.com")!
+    let url2 = URL(string: "http://huhisoft.com")!
+    let url2HTTPS = URL(string: "https://huhisoft.com")!
     
     private func entity(for context: NSManagedObjectContext) -> NSEntityDescription {
         return NSEntityDescription.entity(forEntityName: String(describing: Domain.self), in: context)!
@@ -39,8 +39,8 @@ class DomainTests: CoreDataTestCase {
         XCTAssertEqual(url.absoluteString, Domain.getOrCreate(forUrl: url, persistent: true).url)
         XCTAssertEqual(url2.absoluteString, Domain.getOrCreate(forUrl: url2, persistent: true).url)
         
-        let url3 = URL(string: "https://huhi.com")!
-        let url4 = URL(string: "data://huhi.com")!
+        let url3 = URL(string: "https://huhisoft.com")!
+        let url4 = URL(string: "data://huhisoft.com")!
         XCTAssertEqual(url3.absoluteString, Domain.getOrCreate(forUrl: url3, persistent: true).url)
         XCTAssertEqual(url4.absoluteString, Domain.getOrCreate(forUrl: url4, persistent: true).url)
         XCTAssertEqual(try! DataController.viewContext.count(for: fetchRequest), 4)

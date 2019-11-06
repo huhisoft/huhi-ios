@@ -1,6 +1,6 @@
 <!-- Have you searched for similar issues on the repository?
 Before submitting this issue, please visit our wiki for common ones: https://github.com/huhisoft/browser-ios/wiki
-For more, check out our community site: https://community.huhi.com/ -->
+For more, check out our community site: https://community.huhisoft.com/ -->
 
 ### Description: 
 

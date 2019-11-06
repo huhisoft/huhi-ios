@@ -13,10 +13,10 @@ import Alamofire
 
 class U2FTests: XCTestCase {
     
-    let expectedrpID = "demo.huhi.com"
+    let expectedrpID = "demo.huhisoft.com"
     
     func testWebAuthnRegisterRequest() {
-        let webAuthnRegisterData = "{\"publicKey\":{\"attestation\":\"direct\",\"authenticatorSelection\":{\"requireResidentKey\":false,\"userVerification\":\"discouraged\"},\"pubKeyCredParams\":[{\"alg\":-7,\"type\":\"public-key\"},{\"alg\":-257,\"type\":\"public-key\"}],\"rp\":{\"id\":\"demo.huhi.com\",\"name\":\"Huhi\"},\"timeout\":90000,\"challenge\": \"mdMbxTPACurawWFHqkoltSUwDear2OZQVl/uhBNqiaM=\",\"user\":{\"displayName\":\"Huhi demo user\",\"name\":\"Huhi demo user\",\"id\":\"OvQO5490o1w89Op/9dp4w7VvKuLEk5NHcfOnc2ZECtc=\"},\"excludeCredentials\":[]},\"signal\":{}}"
+        let webAuthnRegisterData = "{\"publicKey\":{\"attestation\":\"direct\",\"authenticatorSelection\":{\"requireResidentKey\":false,\"userVerification\":\"discouraged\"},\"pubKeyCredParams\":[{\"alg\":-7,\"type\":\"public-key\"},{\"alg\":-257,\"type\":\"public-key\"}],\"rp\":{\"id\":\"demo.huhisoft.com\",\"name\":\"Huhi\"},\"timeout\":90000,\"challenge\": \"mdMbxTPACurawWFHqkoltSUwDear2OZQVl/uhBNqiaM=\",\"user\":{\"displayName\":\"Huhi demo user\",\"name\":\"Huhi demo user\",\"id\":\"OvQO5490o1w89Op/9dp4w7VvKuLEk5NHcfOnc2ZECtc=\"},\"excludeCredentials\":[]},\"signal\":{}}"
         guard let jsonData = webAuthnRegisterData.data(using: String.Encoding.utf8) else {
             XCTFail("Failed parsing webauthn registration data")
             return
@@ -46,7 +46,7 @@ class U2FTests: XCTestCase {
     }
     
     func testWebAuthnAuthenticateRequest() {
-        let webAuthnAuthenticateData = "{\"publicKey\":{\"allowCredentials\":[{\"type\":\"public-key\",\"id\":\"OvQO5490o1w89Op/9dp4w7VvKuLEk5NHcfOnc2ZECtc=\"}],\"rpId\":\"demo.huhi.com\",\"timeout\":90000,\"userVerification\":\"discouraged\",\"challenge\":\"mdMbxTPACurawWFHqkoltSUwDear2OZQVl/uhBNqiaM=\"},\"signal\":{}}"
+        let webAuthnAuthenticateData = "{\"publicKey\":{\"allowCredentials\":[{\"type\":\"public-key\",\"id\":\"OvQO5490o1w89Op/9dp4w7VvKuLEk5NHcfOnc2ZECtc=\"}],\"rpId\":\"demo.huhisoft.com\",\"timeout\":90000,\"userVerification\":\"discouraged\",\"challenge\":\"mdMbxTPACurawWFHqkoltSUwDear2OZQVl/uhBNqiaM=\"},\"signal\":{}}"
         guard let jsonData = webAuthnAuthenticateData.data(using: String.Encoding.utf8) else {
             XCTFail("Failed parsing webauthn authentication data")
             return

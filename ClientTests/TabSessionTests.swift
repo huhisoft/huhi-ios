@@ -334,7 +334,7 @@ class TabSessionTests: XCTestCase {
                 })
                 
                 self.tabManager.addNavigationDelegate(webViewNavigationAdapter)
-                self.tabManager.addTabsForURLs([URL(string: "https://huhi.com")!], zombie: false, isPrivate: true)
+                self.tabManager.addTabsForURLs([URL(string: "https://huhisoft.com")!], zombie: false, isPrivate: true)
                 if self.tabManager.tabs(withType: .private).isEmpty {
                     XCTFail("Error: Private tab not created")
                     return dataStoreExpectation.fulfill()

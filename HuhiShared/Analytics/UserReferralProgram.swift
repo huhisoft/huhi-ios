@@ -19,7 +19,7 @@ public class UserReferralProgram {
     
     struct HostUrl {
         static let staging = "https://huhi-laptop-updates-staging.herokuapp.com"
-        static let prod = "https://laptop-updates.huhi.com"
+        static let prod = "https://laptop-updates.huhisoft.com"
     }
     
     let service: UrpService

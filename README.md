@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/huhisoft/huhi-ios.svg?branch=development)](https://travis-ci.org/huhisoft/huhi-ios)
+[![Build Status](https://travis-ci.org/huhi/huhi-ios.svg?branch=development)](https://travis-ci.org/huhi/huhi-ios)
 
 Huhi for iOS 🦁
 ===============
 
-Download on the [App Store](https://itunes.apple.com/app/huhi-web-browser/id2006199027?mt=8).
+Download on the [App Store](https://itunes.apple.com/app/huhi-web-browser/id1052879175?mt=8).
 
 This branch (development)
 -----------
@@ -21,7 +21,7 @@ Getting involved
 
 We encourage you to participate in this open source project. We love Pull Requests, Bug Reports, ideas, (security) code reviews or any kind of positive contribution.
 
-* Development discussion: ['Contributing-ios' Community Forums](https://community.huhi.com/c/contributing/contributing-ios):
+* Development discussion: ['Contributing-ios' Community Forums](https://community.huhisoft.com/c/contributing/contributing-ios):
 * Bugs:           [File a new bug](https://github.com/huhisoft/huhi-ios/issues/new) • [Existing bugs](https://github.com/huhisoft/huhi-ios/issues)
 
 Want to contribute but don't know where to start? Here is a list of [Good First Issues](https://github.com/huhisoft/huhi-ios/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22).

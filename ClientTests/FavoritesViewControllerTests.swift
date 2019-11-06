@@ -53,7 +53,7 @@ class FavoritesViewControllerTests: XCTestCase {
 
     func testTopSiteDelegate_ReceivesFullURL() {
         let index = IndexPath(item: 0, section: 0)
-        let HTTPS_HUHI_COM = "https://www.huhi.com"
+        let HTTPS_HUHI_COM = "https://www.huhisoft.com"
         dataSource.bookmarks[index] = createBookmark(HTTPS_HUHI_COM)
 
         vc.collectionView(collectionView, didSelectItemAt: index)
@@ -64,7 +64,7 @@ class FavoritesViewControllerTests: XCTestCase {
 
     func testTopSiteDelegate_ReceivesURLWithoutScheme() {
         let index = IndexPath(item: 0, section: 0)
-        let HUHI_COM = "huhi.com"
+        let HUHI_COM = "huhisoft.com"
         dataSource.bookmarks[index] = createBookmark(HUHI_COM)
 
         vc.collectionView(collectionView, didSelectItemAt: index)

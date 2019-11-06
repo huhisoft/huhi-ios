@@ -8,7 +8,7 @@ import HuhiShared
 class StringExtensionTests: XCTestCase {
 
     func testFirstURL() {
-        let urlString = "https://huhi.com"
+        let urlString = "https://huhisoft.com"
         let url = URL(string: urlString)!
         XCTAssertEqual(urlString, url.absoluteString)
         
@@ -24,7 +24,7 @@ class StringExtensionTests: XCTestCase {
         let stringWithNoURLs = "This one is just text"
         XCTAssertNil(stringWithNoURLs.firstURL)
         
-        let schemelessURL = "huhi.com"
+        let schemelessURL = "huhisoft.com"
         XCTAssertNotNil(schemelessURL.firstURL)
     }
 }

@@ -13,7 +13,7 @@ class HttpCookieExtensionTest: XCTestCase {
         let expectation = XCTestExpectation(description: "Cookie is loaded from file")
         
         let properties: [HTTPCookiePropertyKey: Any] = [HTTPCookiePropertyKey.name : "HuhiCookieTest",
-                                            HTTPCookiePropertyKey.domain: "huhi.com",
+                                            HTTPCookiePropertyKey.domain: "huhisoft.com",
                                             .path: "/",
                                             .value: "something",
                                             .secure: "TRUE",

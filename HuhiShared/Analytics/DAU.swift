@@ -12,7 +12,7 @@ public class DAU {
     public static let defaultWoiDate = "2016-01-04"
     
     private static let apiVersion = 1
-    private static let baseUrl = "https://laptop-updates.huhi.com/\(apiVersion)/usage/ios?platform=ios"
+    private static let baseUrl = "https://laptop-updates.huhisoft.com/\(apiVersion)/usage/ios?platform=ios"
     
     /// Number of seconds that determins when a user is "active"
     private let pingRefreshDuration = 5.minutes
